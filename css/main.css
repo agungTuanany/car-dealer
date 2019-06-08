@@ -7,6 +7,7 @@
   --mainGrey:#DCDCDC;
   --mainRed:#E84855;
   --mainBlue:#295CAD;
+  --transparentBlue: rgba(64, 172, 241,0.5);
   --mainSpacing:0.1rem;
   --mainTransition: all 0.8s linear;
 }
@@ -22,6 +23,16 @@ body {
   font-family: 'Roboto Mono', monospace !important;
   background:var(--mainGrey);
 }
+
+/*-- section-title --*/
+.section-title-special {
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+
+}
+
 
 /*-- navbar --*/
 
