@@ -30,8 +30,22 @@ body {
   color: var(--mainWhite);
   padding: 0.5rem 2rem;
   clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
-
 }
+/*-- preloader --*/
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--mainWhite);
+  z-index: 99;
+}
+
+.hidePreloader {
+  display: none !important;
+}
+
 
 
 /*-- navbar --*/
