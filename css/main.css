@@ -46,8 +46,6 @@ body {
   display: none !important;
 }
 
-
-
 /*-- navbar --*/
 
 .navbar {
@@ -154,7 +152,6 @@ body {
 }
 /*-- end of header --*/
 
-
 /*-- skills --*/
 .skills-icon {
   font-size: 3rem;
@@ -174,3 +171,30 @@ body {
   margin: 1rem auto;
 }
 /*-- end of skills --*/
+
+/*-- inventory --*/
+.inventory {
+  background: var(--mainGrey);
+}
+
+.car-card {
+  border-radius: 0 !important;
+}
+
+.car-img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.car-value {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  transition: all 1s ease-in-out;
+}
+
+.car-value:hover {
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+}
+/*-- end of inventory --*/
+

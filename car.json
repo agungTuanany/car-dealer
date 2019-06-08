@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "german-1",
+        "price": 1000.99,
+        "image": { "fields": { "file": { "url": "./images/german-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "german-2",
+        "price": 1000.99,
+        "image": { "fields": { "file": { "url": "./images/german-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "german-3",
+        "price": 1200.99,
+        "image": { "fields": { "file": { "url": "./images/german-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "american-1",
+        "price": 2002.99,
+        "image": { "fields": { "file": { "url": "./images/american-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "american-2",
+        "price": 1000.99,
+        "image": { "fields": { "file": { "url": "./images/american-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "american-3",
+        "price": 1002.99,
+        "image": { "fields": { "file": { "url": "./images/american-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "american-4",
+        "price": 1002.99,
+        "image": { "fields": { "file": { "url": "./images/american-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "american-5",
+        "price": 2002.99,
+        "image": { "fields": { "file": { "url": "./images/american-5.jpeg" } } }
+      }
+    }
+  ]
+}
