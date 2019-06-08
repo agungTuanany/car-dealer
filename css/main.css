@@ -57,3 +57,76 @@ body {
 .nav-icon:hover {
   color: var(--mainBlack);
 }
+/*-- end of navbar --*/
+
+/*-- header --*/
+.header {
+  color: var(--mainWhite);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  overflow: hidden;
+}
+
+.height-max {
+  min-height: calc(100vh - 90px);
+  background: url('../images/header-bcg-2.jpeg') center/cover fixed no-repeat;
+  animation-name: zoom;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2) translate(-5%);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.title-heading {
+  background: rgba(0,0,0,0.4);
+  border-left: .3rem solid var(--mainRed);
+  transition: all .5s ease-in-out;
+}
+
+.title-heading:hover {
+  border-left: .3rem solid var(--mainBlue);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.9rem;
+  transition: all .5s ease-in-out;
+}
+
+@media screen and (min-widht:768) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.text-right {
+  top: 5rem;
+  right: 5rem;
+}
+
+.title-icon {
+  color: var(--mainRed);
+  text-decoration: none !important;
+  transition: all .5s ease-in-out;
+}
+
+.title-icon:hover {
+  color: var(--mainBlue);
+  opacity: .6;
+}
+
+
+/*-- end of header --*/
