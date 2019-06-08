@@ -286,3 +286,27 @@ body {
 }
 /*-- end of featured --*/
 
+/*-- footer --*/
+.footer {
+  background-color: var(--mainBlack) !important;
+}
+
+.footer-icons {
+  font-size: 1.5rem;
+  color: var(--mainWhite);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.footer-icons:hover{
+  transform: translateY(-10%);
+}
+
+.footer p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--mainWhite);
+}
+/*-- end of footer --*/
+
