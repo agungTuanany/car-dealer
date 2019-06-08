@@ -2,12 +2,13 @@
 
 :root {
   --primaryColor: #FFBf00;
-  --mainWhite:#FDF0D5;
+  --mainWhite:#FFFCFF;
   --mainBlack:#030504;
-  --mainGrey:#C5D8D3;
+  --mainGrey:#DCDCDC;
   --mainRed:#E84855;
+  --mainBlue:#295CAD;
   --mainSpacing:0.1rem;
-  --mainTransition: all 0.3s linear;
+  --mainTransition: all 0.8s linear;
 }
 
 * {
@@ -18,6 +19,41 @@
 
 body {
   color: var(--mainBlack);
-  background: var(--mainWhite);
   font-family: 'Roboto Mono', monospace !important;
+  background:var(--mainGrey);
+}
+
+/*-- navbar --*/
+
+.navbar {
+  background: var(--mainWhite);
+}
+
+.navbar-icon {
+  font-size: 2rem;
+  color: var(--mainBlue);
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.nav-link {
+  color: var(--mainBlack);
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: var(--mainBlue);
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--mainBlue);
+  text-decoration: none;
+  transition: --mainTransition;
+}
+
+.nav-icon:hover {
+  color: var(--mainBlack);
 }
