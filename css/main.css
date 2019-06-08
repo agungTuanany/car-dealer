@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300i,400,700&display=swap');
 
 :root {
-  --primaryColor: #FFBf00;
+  --mainYellow: #FFBf00;
   --mainWhite:#FFFCFF;
   --mainBlack:#030504;
   --mainGrey:#DCDCDC;
@@ -138,6 +138,25 @@ body {
   color: var(--mainBlue);
   opacity: .6;
 }
-
-
 /*-- end of header --*/
+
+
+/*-- skills --*/
+.skills-icon {
+  font-size: 3rem;
+  color: var(--mainYellow) !important;
+  background: var(--transparentBlue);
+  transition: all .5s ease-in-out;
+}
+
+.skills-icon:hover {
+  color: var(--mainRed) !important;
+}
+
+.skills-underline {
+  width: 4rem;
+  height: .3rem;
+  background: var(--mainBlue);
+  margin: 1rem auto;
+}
+/*-- end of skills --*/
